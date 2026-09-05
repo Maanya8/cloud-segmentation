@@ -52,6 +52,8 @@ The ground truth is a binary per-pixel cloud mask. Many source patches contain b
 
 For each patch, raw digital numbers are converted to top-of-atmosphere reflectance using the source scene's MTL coefficients and sun elevation, then clipped to `[0, 1]`. This keeps inputs comparable across scenes.
 
+To replicate, download the Cloud38 dataset, as on https://www.kaggle.com/datasets/sorour/38cloud-cloud-segmentation-in-satellite-images, and put it in root directory of the project in a folder named Cloud38
+
 ## Train
 
 Activate the environment and start training:
