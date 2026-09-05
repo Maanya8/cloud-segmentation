@@ -3,3 +3,4 @@ Cloud38/
 .venv
 __pycache__/
 epoch_visualizations/
+steps.md

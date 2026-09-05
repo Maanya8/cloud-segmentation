@@ -1,3 +1,9 @@
+[finetune] epoch 61/61 | train_loss=0.32731
+           val_loss=0.36818 | accuracy=0.9639 | precision=0.9582 | recall=0.9673 | f1=0.9627 | iou=0.9281 | dice=0.9627
+           cloud_pixel_fraction (val set)=0.4819
+Training finished. Best val_loss=0.36495
+
+
 Project Title
 
 Cloud Segmentation on Landsat-8 Imagery (38-Cloud Dataset)
